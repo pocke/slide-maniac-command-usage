@@ -38,3 +38,51 @@ https://atnd.org/events/88084
 </details>
 
 
+<details>
+<summary>cat</summary>
+
+
+  <details>
+  <summary>普通の使い方</summary>
+  
+  cat コマンドは、ファイルの中身を表示するのに使います。
+  
+```bash
+$ cat /proc/cpuinfo
+```
+  
+  </details>
+
+</details>
+
+
+<details>
+<summary>ruby</summary>
+
+
+</details>
+
+<details>
+<summary>git-grep</summary>
+
+
+</details>
+
+<details>
+<summary>rwww</summary>
+
+
+</details>
+
+<details>
+<summary>sl</summary>
+
+
+</details>
+
+
+<details>
+<summary>git</summary>
+
+
+</details>
