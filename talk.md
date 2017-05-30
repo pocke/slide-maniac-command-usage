@@ -158,10 +158,69 @@ https://atnd.org/events/88084
 
   <details>
   <summary>普通の使い方</summary>
+
+  `git grep hogehoge` とやると、Git管理下にあるファイルから`hogehoge`を検索します。便利。
+
+  ```bash
+  $ git grep ruby
+  talk.md:<summary>ruby</summary>
+  talk.md:  ```ruby
+  talk.md:  $ ruby hello.rb
+  talk.md:  $ cat test.csv | ruby -pale '$_=$F.map(&:to_i).max'
+  talk.md:  https://docs.ruby-lang.org/ja/latest/doc/spec=2frubycmd.html
+  ```
+
+  また、いろんなオプションがあります。便利
+
+  ```bash
+  # -i 大文字小文字の違いを無視する。
+  $ git grep -i ruby
+  talk.md:- Rubyist, Vimmer, Arch Linux :heart:
+  talk.md:<summary>ruby</summary>
+  talk.md:  Ruby プログラムを実行します。
+  talk.md:  ```ruby
+  talk.md:  $ ruby hello.rb
+  talk.md:  $ cat test.csv | ruby -pale '$_=$F.map(&:to_i).max'
+  talk.md:  Ruby のコマンドラインオプションが重要です。
+  talk.md:  - `-p`: Ruby プログラムが while gets; end のループに囲まれているように動作します。また、`$_`に代入された文字列をループの終了時に出力します。
+  talk.md:  - `-e`: この後に与えられた文字列をRubyのコードとして実行します。
+  talk.md:  https://docs.ruby-lang.org/ja/latest/doc/spec=2frubycmd.html
+  talk.md:  $ git grep ruby
+  talk.md:  talk.md:<summary>ruby</summary>
+  talk.md:  talk.md:  ```ruby
+  talk.md:  talk.md:  $ ruby hello.rb
+  talk.md:  talk.md:  $ cat test.csv | ruby -pale '$_=$F.map(&:to_i).max'
+  talk.md:  talk.md:  https://docs.ruby-lang.org/ja/latest/doc/spec=2frubycmd.html
+  ```
+
+  ```bash
+  # -w 単語単位での検索をします。
+  $ git grep -w a
+  talk.md:  - `-a`: オートスプリットモードが有効になります。各ループの先頭で、標準入力から読み込んだ文字列を、空白で区切って配列にしたものを`$F`に代入します。
+  ```
+
   </details>
 
   <details>
   <summary>マニアックな使い方</summary>
+
+  ```zsh
+  # In ~/.zshrc
+  function /()
+  {
+    git grep $@
+  }
+  ```
+
+  ```bash
+  # これで検索できる
+  $ / ruby
+
+  # 勿論オプションも効く
+  $ / -w ruby
+  ```
+
+  Vim っぽくて便利！
   </details>
 
 </details>
