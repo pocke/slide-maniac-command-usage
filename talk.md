@@ -82,6 +82,30 @@ https://atnd.org/events/88084
 <summary>ruby</summary>
 
 
+  <details>
+  <summary>普通の使い方</summary>
+  
+  Ruby プログラムを実行します。
+
+  ```ruby
+  # hello.rb
+  def hello
+    puts 'Hello, world!'
+  end
+  hello
+  ```
+
+  ```bash
+  $ ruby hello.rb
+  Hello, world!
+  ```
+
+  </details>
+  
+  <details>
+  <summary>マニアックな使い方</summary>
+  </details>
+
 </details>
 
 <details>
