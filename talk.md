@@ -87,7 +87,7 @@ https://atnd.org/events/88084
 
   Ruby プログラムを実行します。
 
-  ```ruby
+  ```ruby
   # hello.rb
   def hello
     puts 'Hello, world!'
