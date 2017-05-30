@@ -156,11 +156,26 @@ https://atnd.org/events/88084
 <details>
 <summary>git-grep</summary>
 
+  <details>
+  <summary>普通の使い方</summary>
+  </details>
+
+  <details>
+  <summary>マニアックな使い方</summary>
+  </details>
 
 </details>
 
 <details>
-<summary>rwww</summary>
+<summary>www</summary>
+
+  <details>
+  <summary>普通の使い方</summary>
+  </details>
+
+  <details>
+  <summary>マニアックな使い方</summary>
+  </details>
 
 
 </details>
@@ -169,11 +184,27 @@ https://atnd.org/events/88084
 <summary>sl</summary>
 
 
+  <details>
+  <summary>普通の使い方</summary>
+  </details>
+
+  <details>
+  <summary>マニアックな使い方</summary>
+  </details>
+
 </details>
 
 
 <details>
 <summary>git</summary>
+
+  <details>
+  <summary>普通の使い方</summary>
+  </details>
+
+  <details>
+  <summary>マニアックな使い方</summary>
+  </details>
 
 
 </details>
