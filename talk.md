@@ -84,7 +84,7 @@ https://atnd.org/events/88084
 
   <details>
   <summary>普通の使い方</summary>
-  
+
   Ruby プログラムを実行します。
 
   ```ruby
@@ -101,7 +101,7 @@ https://atnd.org/events/88084
   ```
 
   </details>
-  
+
   <details>
   <summary>マニアックな使い方</summary>
   </details>
