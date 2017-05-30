@@ -35,7 +35,6 @@ https://atnd.org/events/88084
     - 色々なコマンドのマニアックな使い方を紹介します。
 
 
-</details>
 
 
 <details>
@@ -106,6 +105,9 @@ https://atnd.org/events/88084
 
 <details>
 <summary>git</summary>
+
+
+</details>
 
 
 </details>
