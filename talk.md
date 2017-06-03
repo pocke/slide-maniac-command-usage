@@ -230,10 +230,20 @@ https://atnd.org/events/88084
 
   <details>
   <summary>普通の使い方</summary>
+
+  これはコマンド自体がマニアックなので……
   </details>
 
   <details>
   <summary>マニアックな使い方</summary>
+
+  https://github.com/pocke/www
+
+  これだけでカレントディレクトリをサーブする HTTP サーバが立ち上がって便利(DEMO)
+
+  ```bash
+  $ www
+  ```
   </details>
 
 
@@ -245,6 +255,12 @@ https://atnd.org/events/88084
 
   <details>
   <summary>普通の使い方</summary>
+
+  ターミナルに sl が走ります。便利(DEMO)
+
+  ```bash
+  $ sl
+  ```
   </details>
 
   <details>
