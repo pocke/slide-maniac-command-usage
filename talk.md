@@ -10,6 +10,10 @@
 - Pocke
 - Actcat inc. / Engineer
 - Rubyist, Vimmer, Arch Linux :heart:
+- 趣味: OSS に Pull-Request を投げること: https://github.com/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Apocke+is%3Apublic+-user%3Apocke
+- Twitter: [`@p_ck_`](https://twitter.com/p_ck_)
+- GitHub: [`@pocke`](https://github.com/pocke)
+- Facebook: [`@kwbr22`](https://facebook.com/kwbr22)
 
 </details>
 
@@ -284,7 +288,14 @@ https://atnd.org/events/88084
 
   例えば、HTTP 越しに SL を走らせることが出来る。 https://github.com/pocke/sl-over-http
 
-  # `curl http://hogehoge.ngrok.com` にアクセス！！！
+  # `curl http://hogehoge.ngrok.com` を実行！！！
+
+
+  ------------
+
+  ## さらにマニアックな使い方
+
+  See. [https://twitter.com/p_ck_](https://twitter.com/p_ck_)
 
   </details>
 
