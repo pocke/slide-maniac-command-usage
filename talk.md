@@ -307,10 +307,23 @@ https://atnd.org/events/88084
 
   <details>
   <summary>普通の使い方</summary>
+
+  ```bash
+  $ git status
+  $ git checkout hogehoge
+  ```
+
   </details>
 
   <details>
   <summary>マニアックな使い方</summary>
+
+  ```bash
+  # git を沢山打っても期待した動作をして便利
+  $ git git git git git git status
+  ```
+
+  See. https://github.com/pocke/dotfiles/blob/5673e4a08c67e771128ddb8425806232fc620afe/.gitconfig#L37
   </details>
 
 
