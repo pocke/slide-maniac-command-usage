@@ -239,11 +239,17 @@ https://atnd.org/events/88084
 
   https://github.com/pocke/www
 
-  これだけでカレントディレクトリをサーブする HTTP サーバが立ち上がって便利(DEMO)
+  これだけでカレントディレクトリをサーブする HTTP サーバが立ち上がって便利(DEMO)。
 
   ```bash
   $ www
   ```
+
+  - HTTP server
+  - Open browser
+  - random port
+
+  要するに `pyhton -m http.server` の簡単便利バージョン
   </details>
 
 
@@ -261,10 +267,25 @@ https://atnd.org/events/88084
   ```bash
   $ sl
   ```
+
+  オプションも色々あって楽しい(Let's `man sl`!)
   </details>
 
   <details>
   <summary>マニアックな使い方</summary>
+
+  ## SL が走る原理
+
+  - ターミナルに一定間隔でエスケープシーケンスを流している
+    - つまり、一定間隔で文字列が流れているのをターミナルがいい感じに表示しているだけ
+
+
+  ## おもしろ
+
+  例えば、HTTP 越しに SL を走らせることが出来る。 https://github.com/pocke/sl-over-http
+
+  # `curl http://hogehoge.ngrok.com` にアクセス！！！
+
   </details>
 
 </details>
