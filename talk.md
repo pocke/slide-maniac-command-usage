@@ -288,14 +288,21 @@ https://atnd.org/events/88084
 
   例えば、HTTP 越しに SL を走らせることが出来る。 https://github.com/pocke/sl-over-http
 
+  DEMO
+
   # `curl http://hogehoge.ngrok.com` を実行！！！
 
 
-  ------------
+  <details>
+
+  <summary>-</summary>
 
   ## さらにマニアックな使い方
 
   See. [https://twitter.com/p_ck_](https://twitter.com/p_ck_)
+
+  </details>
+
 
   </details>
 
@@ -317,6 +324,8 @@ https://atnd.org/events/88084
 
   <details>
   <summary>マニアックな使い方</summary>
+
+  DEMO
 
   ```bash
   # git を沢山打っても期待した動作をして便利
