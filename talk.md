@@ -290,7 +290,7 @@ https://atnd.org/events/88084
 
   DEMO
 
-  # `curl http://hogehoge.ngrok.com` を実行！！！
+  # `curl https://e6ec6d92.ngrok.io` を実行！！！
 
 
   <details>
